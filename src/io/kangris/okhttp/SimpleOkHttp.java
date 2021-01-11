@@ -2,7 +2,7 @@ package io.kangris.okhttp;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.google.appinventor.components.annotations.*;
 import com.google.appinventor.components.common.*;
