@@ -1,8 +1,12 @@
 package io.kangris.okhttp;
 
 import android.app.Activity;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
 
-import java.io.IOException;
+import com.google.appinventor.components.annotations.*;
+import com.google.appinventor.components.common.*;
+import com.google.appinventor.components.runtime.*;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -10,9 +14,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-import com.google.appinventor.components.annotations.*;
-import com.google.appinventor.components.common.*;
-import com.google.appinventor.components.runtime.*;
+import java.io.IOException;
 
 @DesignerComponent(version = 1,
     description = "Simple OkHttp" ,
